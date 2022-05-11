@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devFolio by 7oda</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bolg.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">devFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">drop down1</a></li>
+                <li><a class="dropdown-item" href="#">deep drop down</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">drop down2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">drop down3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">drop down4</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start header -->
+    <header id="header" class="py-5 text-capitalize position-relative">
+      <div class="container py-5 position-relative">
+        <div class="row py-5">
+          <div class="col-sm-12">
+            <div class="caption text-white text-center">
+              <h2 class="text-uppercase text-white fs-1">BLOG DETAILS</h2>
+              <ol class="breadcrumb d-flex justify-content-center">
+                <li class="breadcrumb-items position-relative">
+                  <a href="#" class="text-white text-decoration-none">home</a>
+                </li>
+                <li class="breadcrumb-items position-relative ps-2">
+                  <a href="#" class="text-white text-decoration-none"
+                    >library</a
+                  >
+                </li>
+                <li class="breadcrumb-items active position-relative ps-2">
+                  data
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="blog-wrapper" class="text-capitalize py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8"></div>
+          <div class="col-md-4">
+            <div class="sidebar-search bg-white p-4">
+              <h5 class="main-titel position-relative ps-3 fs-3 mb-4">
+                SEARCH
+              </h5>
+              <div class="sidebar-content">
+                <form>
+                  <div class="input-group d-flex">
+                    <input
+                      class="form-control rounded-0"
+                      type="text"
+                      placeholder="Search for..."
+                      aria-label="default input example"
+                    />
+                    <span class="input-group-btn">
+                      <button
+                        class="btn btn-primary rounded-0 bg-main-color px-3"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <aside class="sidebar-links bg-white p-4">
+              <h5 class="main-titel position-relative ps-3 fs-3 mb-4">
+                RECENT POST
+              </h5>
+              <ul class="lists list-unstyled">
+                <li class="mb-3 py2 ps-3">
+                  <a href="#" class="d-block">Atque placeat maiores</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end header -->
+    <footer class="py-3 text-capitalize text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="capyright">
+              <p class="mb-0">
+                © Copyright
+                <strong class="fw-bolder"> DevFolio </strong>
+                . All Rights Reserved
+              </p>
+            </div>
+            <div class="credits mt-1">
+              Designed by
+              <a href="#" class="text-decoration-none text-white">
+                mahomud ibrahim
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a
+      href="#home"
+      class="Arrow position-fixed d-block p-2 text-white bg-main-color d-flex justify-content-center align-items-center rounded-circle"
+    >
+      <i class="fa-solid fa-up-long fa-xl fw-bold"></i>
+    </a>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
